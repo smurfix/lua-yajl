@@ -1,0 +1,5 @@
+lua-yajl (2.0+git1-1) unstable; urgency=medium
+
+  * Initial packaging.
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Sun, 19 Jul 2020 20:09:28 +0200

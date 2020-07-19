@@ -1,0 +1,27 @@
+Source: lua-yajl
+Section: interpreters
+Priority: optional
+Maintainer: Matthias Urlichs <smurf@jdebian.org>
+Build-Depends: debhelper (>= 13), dh-lua, lua-busted, libyajl-dev
+Standards-Version: 3.9.8
+Homepage: https://github.com/brimworks/lua-yajl
+
+Package: lua-yajl
+Architecture: any
+Depends: ${shlib:Depends}
+Provides: ${lua:Provides}
+XB-Lua-Versions: ${lua:Versions}
+Description: Lua interface to libyajl
+ LibYAJL is Yet Another Json Library.
+ .
+ This is the lua interface.
+
+Package: lua-yajl-dev
+Architecture: any
+Depends: ${misc:Depends}
+Provides: ${lua:Provides}
+XB-Lua-Versions: ${lua:Versions}
+Description: Lua interface to libyajl (development files)
+ LibYAJL is Yet Another Json Library.
+ .
+ These are the development files.
